@@ -10,5 +10,5 @@ T2LDM++ will include these tasks:
 - 3D Box-to-LiDAR Generation (nuScenes)
 - Sparse-to-Dense Generation (nuScenes)
 - Dense-to-Sparse Generation (nuScenes)
-- BEV-to-LiDAR Generation (nuScenes)
+- BEV-to-LiDAR Generation (KITTI-360, nuScenes)
 - Camera-to-LiDAR (nuScenes)
