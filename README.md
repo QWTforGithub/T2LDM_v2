@@ -1,7 +1,7 @@
 # T2LDM_v2
 The extension version of T2LDM. <br/>
-The code comes soon...
-T2LDM++ WILL include these tasks:
+The code comes soon... <br/>
+T2LDM++ will include these tasks:
 - Unconditional Generation (KITTI-360, SemanticKITTI, nuScenes)
 - Unconditional Partial Generation (nuScenes)
 - Text-to-LiDAR Generation (SemanticKITTI, nuScenes)
