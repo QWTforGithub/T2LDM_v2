@@ -5,7 +5,7 @@ T2LDM++ will include these tasks:
 - Unconditional Generation (KITTI-360, SemanticKITTI, nuScenes)
 - Unconditional Partial Generation (nuScenes)
 - Text-to-LiDAR Generation (SemanticKITTI, nuScenes)
-- Zero-shot Text-to-LiDAR Generation (SemanticKITTI, nuScenes)
+- Zero-shot Text-to-LiDAR Generation from (semantic, Box)-to-LiDAR Generation (SemanticKITTI, nuScenes)
 - Semantic-to-LiDAR Generation (SemanticKITTI, nuScenes)
 - 3D Box-to-LiDAR Generation (nuScenes)
 - Sparse-to-Dense Generation (nuScenes)
