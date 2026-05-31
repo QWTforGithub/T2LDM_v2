@@ -11,4 +11,4 @@ T2LDM++ will include these tasks:
 - Sparse-to-Dense Generation (nuScenes)
 - Dense-to-Sparse Generation (nuScenes)
 - BEV-to-LiDAR Generation (KITTI-360, nuScenes) (BEV is the binary image, only including 0 and 1)
-- Camera-to-LiDAR (nuScenes)
+- Camera-to-(Partial Scene)LiDAR (nuScenes)
