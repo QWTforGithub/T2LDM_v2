@@ -21,7 +21,7 @@ class TrainingConfig:
     num_workers: int = 16 # 2 # 16
 
     text_keys: str = "text" # "text_l0 text_l1 text_2"
-    pkl: str = "kitti_semantic.pkl" # "nuscenes_description_plus_plus.pkl"
+    pkl: str = "semantic_kitti.pkl" # "nuscenes_description_plus_plus.pkl"
     version: str = "v1.0-trainval"
     semantic_class_num: float = 20.0
     use_3dbox: bool = False
