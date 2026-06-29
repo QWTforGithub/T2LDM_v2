@@ -31,7 +31,7 @@ from configs.config_text_clip_SemanticKITTI_gn import TrainingConfig
 # ---- Unconditional Generation ----
 from configs.config_unconditional_partial_nuScenes_gn import TrainingConfig
 
-from configs.config_unconditional_SemanticKITTI_gn import TrainingConfig
+from configs.config_unconditional_KITTI360_gn import TrainingConfig
 from configs.config_unconditional_SemanticKITTI_gn import TrainingConfig
 from configs.config_unconditional_nuScenes_gn import TrainingConfig
 # ---- Unconditional Generation ----
