@@ -11,7 +11,7 @@ class TrainingConfig:
 
     # ---- dataset setting ----
     dataset: Literal["kitti_semantic", "kitti_360", "nuScenes"] = "nuScenes"
-    data_root: str = "/ihoment/youjie10/qwt/dataset/nuscenes"
+    data_root: str = "/root/dataset/nuScenes"
     aug: tuple[int, int] = ("-", "-") # ("rotation", "flip")
     resolution: tuple[int, int] = (32, 1024)
     depth_range: tuple[int, int] = (0.01, 50.0)
@@ -29,7 +29,7 @@ class TrainingConfig:
     use_bev: bool = False
     use_seg: bool = False
     use_zeroshot_text: bool = False
-	sample_type: str = "train"
+    sample_type: str = "train"
     only_class: int = -1
     # ---- dataset setting ----
 
