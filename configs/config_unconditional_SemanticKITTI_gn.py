@@ -11,7 +11,7 @@ class TrainingConfig:
 
     # ---- dataset setting ----
     dataset: Literal["kitti_semantic", "kitti_360", "nuScenes"] = "kitti_semantic"
-    data_root: str = "/ihoment/youjie10/qwt/dataset/SemanticKITTI/dataset/sequences"
+    data_root: str = "/root/dataset/SemanticKITTI/sequences"
     aug: tuple[int, int] = ("-", "-") # ("rotation", "flip")
     resolution: tuple[int, int] = (64, 1024)
     depth_range: tuple[int, int] = (1.45, 80.0)
@@ -21,7 +21,7 @@ class TrainingConfig:
     num_workers: int = 16 # 2 # 16
 
     text_keys: str = "text" # "text_l0 text_l1 text_2"
-    pkl: str = "nuscenes.pkl" # "nuscenes_description_plus_plus.pkl"
+    pkl: str = "kitti_semantic.pkl" # "nuscenes_description_plus_plus.pkl"
     version: str = "v1.0-trainval"
     semantic_class_num: float = 20.0
     use_3dbox: bool = False
