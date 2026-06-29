@@ -1,6 +1,6 @@
 # T2LDM++
 The extension version of T2LDM. <br/>
-[T2LDMv2](https://huggingface.co/QWTforHuggingFace/T2LDMv2) <br/>
+[HuggingFace](https://huggingface.co/QWTforHuggingFace/T2LDMv2) <br/>
 T2LDM++ will include these tasks:
 - Unconditional Generation (KITTI-360, SemanticKITTI, nuScenes)
 - Unconditional Partial Generation (nuScenes)
