@@ -121,7 +121,7 @@ class TrainingConfig:
     train_depth: bool = True
     train_reflectance: bool = True
     train_mask: bool = True # True
-    num_steps: int = 500_000 # 400_000
+    num_steps: int = 400_000 # 400_000
     save_sample_steps: int =  5_000#10_000# 5_000 # 10_000 # 1
     save_model_steps: int =  5_000#10_000 # 1
     gradient_accumulation_steps: int = 1
