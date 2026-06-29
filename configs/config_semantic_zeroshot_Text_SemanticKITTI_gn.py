@@ -139,7 +139,7 @@ class TrainingConfig:
     dynamo_backend: str = None # "inductor", "no", None
     filer_keys =  [".n_",".temb.",".g_",] # ["n_","temb","g_",] # None
     checkpoint_dir: str = None
-    pretrained_checkpoint_dir: str = "/ihoment/youjie10/qwt/model/IJCV/unconditional_SemanticKITTI/diffusion_0000780000.pth"
+    pretrained_checkpoint_dir: str = "/root/model/IJCV/unconditional_SemanticKITTI/diffusion_0000400000.pth"
     # ---- training setting ----
 
     # ---- diffusion setting ----
