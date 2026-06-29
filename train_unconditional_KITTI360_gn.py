@@ -34,7 +34,7 @@ from models.diffusion import (
 )
 from utils.lidar import LiDARUtility, get_hdl64e_linear_ray_angles
 
-from models.T2LDM_final_a import CircularUNet
+from models.T2LDM_plus_plus import CircularUNet
 from configs.config_unconditional_KITTI360_gn import TrainingConfig
 
 warnings.filterwarnings("ignore", category=UserWarning)
