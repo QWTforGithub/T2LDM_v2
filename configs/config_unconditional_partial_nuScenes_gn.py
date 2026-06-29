@@ -18,7 +18,7 @@ class TrainingConfig:
     fov: tuple[int, int] = (3, -25)
     batch_size_train: int = 128#64 # 2 # 16
     batch_size_eval: int = 4
-    num_workers: int = 16#16 # 2 # 16
+    num_workers: int = 32#16 # 2 # 16
 
     text_keys: str = "text" # "text_l0 text_l1 text_2"
     pkl: str = "nuscenes_camera.pkl" # "nuscenes_description_plus_plus.pkl"
