@@ -1,0 +1,118 @@
+150883
+Two cars. : 2099
+Cars and pedestrians. : 4000
+Cars and traffic cones. : 2000
+Cars and trucks. : 4000
+Cars and vehicles. : 1500
+One car. : 1873
+No cars. : 857
+There are no cars. : 857
+A scene with no cars. : 857
+More than five cars. : 3458
+Cars and barriers. : 1500
+Cars and motorcycles. : 1500
+Five cars. : 1653
+Cars and bicycles. : 1500
+Four cars. : 1842
+Three cars. : 2368
+Cars and buses. : 1500
+Cars and trailers. : 1500
+The scene contains a car and a pedestrian. : 4000
+The scene contains a car and a barrier. : 1500
+The scene contains a car and a traffic cone. : 2000
+The scene contains a car and a vehicle. : 1500
+The scene contains a car and a truck. : 4000
+The scene contains a car and a bus. : 1500
+The scene contains a car and a bicycle. : 1500
+One car is facing backward. : 3537
+One car is facing left. : 7638
+One car is facing right. : 5571
+The scene contains a car and a motorcycle. : 1500
+One car is facing forward. : 3253
+The scene contains a car and a trailer. : 1500
+One car is the left of one barrier. : 4271
+One car is the left of one traffic cone. : 5232
+One car is the right of one traffic cone. : 4062
+One car is the right of one barrier. : 3438
+One car is the right of one pedestrian. : 7957
+One car is the left of one pedestrian. : 10440
+One car is the left of one bus. : 4106
+One car is the right of one bus. : 3427
+One car is the right of one truck. : 7334
+One car is the right of one bicycle. : 1783
+One car is the left of one truck. : 8229
+One car is the left of one bicycle. : 2234
+One car is the right of one vehicle. : 2372
+One car is the left of one vehicle. : 2489
+One car is the left of one trailer. : 3068
+One car is the right of one trailer. : 2312
+One car is the left of one motorcycle. : 2418
+One car is the right of one motorcycle. : 1848
+
+adding weather:
+Two cars. : 2099
+Cars and pedestrians. : 4000
+Cars and traffic cones. : 2000
+Cars and trucks. : 4000
+Cars and vehicles. : 1500
+One car. : 1873
+No cars. : 857
+There are no cars. : 857
+A scene with no cars. : 857
+More than five cars. : 3458
+Cars and barriers. : 1500
+Cars and motorcycles. : 1500
+Five cars. : 1653
+Cars and bicycles. : 1500
+Four cars. : 1842
+Three cars. : 2368
+Cars and buses. : 1500
+Cars and trailers. : 1500
+The scene contains a car and a pedestrian. : 4000
+The scene contains a car and a barrier. : 1500
+The scene contains a car and a traffic cone. : 2000
+The scene contains a car and a vehicle. : 1500
+The scene contains a car and a truck. : 4000
+The scene contains a car and a bus. : 1500
+The scene contains a car and a bicycle. : 1500
+One car is facing backward. : 2487
+One car is facing left. : 5542
+One car is facing right. : 3873
+The scene contains a car and a motorcycle. : 1500
+One car is facing forward. : 2427
+The scene contains a car and a trailer. : 955
+One car is the left of one barrier. : 3072
+One car is the left of one traffic cone. : 3709
+One car is the right of one traffic cone. : 2653
+One car is the right of one barrier. : 2128
+One car is the right of one pedestrian. : 6114
+One car is the left of one pedestrian. : 7721
+One car is the left of one bus. : 3072
+One car is the right of one bus. : 2741
+One car is the right of one truck. : 4651
+One car is the right of one bicycle. : 1783
+One car is the left of one truck. : 5432
+One car is the left of one bicycle. : 2234
+Rainy. One car is facing backward. : 1050
+Rainy. One car is the right of one pedestrian. : 1843
+Rainy. One car is the right of one traffic cone. : 1409
+Rainy. One car is the left of one truck. : 2797
+Rainy. One car is the left of one traffic cone. : 1523
+Rainy. One car is facing left. : 2096
+Rainy. One car is the right of one truck. : 2683
+Rainy. One car is facing forward. : 826
+Rainy. One car is facing right. : 1698
+Rainy. The scene contains a car and a trailer. : 545
+Rainy. One car is the right of one barrier. : 1310
+Rainy. One car is the left of one pedestrian. : 2719
+Rainy. One car is the left of one bus. : 1034
+Rainy. One car is the right of one bus. : 686
+Rainy. One car is the left of one barrier. : 1199
+One car is the right of one vehicle. : 2372
+One car is the left of one vehicle. : 2489
+One car is the left of one trailer. : 1895
+One car is the right of one trailer. : 1543
+One car is the left of one motorcycle. : 2418
+Rainy. One car is the right of one trailer. : 769
+Rainy. One car is the left of one trailer. : 1173
+One car is the right of one motorcycle. : 1848

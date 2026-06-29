@@ -1,0 +1,10 @@
+car : 131883
+pedestrian : 26397
+cone : 13294
+truck : 23563
+vehicle : 7861
+barrier : 10709
+motorcycle : 7266
+bicycle : 7017
+bus : 10533
+trailer : 8380

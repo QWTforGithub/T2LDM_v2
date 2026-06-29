@@ -1,0 +1,51 @@
+The scene contains motorcyclists and cars.: 635
+Motorcyclists and trunks.: 620
+The scene contains motorcyclists and trafficsigns.: 434
+Motorcyclists and poles.: 538
+A road scene with motorcyclists.: 719
+Motorcyclists in a scene with vegetation.: 719
+There are motorcyclists in the scene.: 719
+Motorcyclists.: 719
+A road scene with poles.: 5740
+A road scene with trunks.: 5301
+There are cars in the scene.: 5542
+Poles.: 5642
+There are trunks in the scene.: 5298
+Cars.: 5347
+Trafficsigns.: 4032
+Trunks.: 5255
+Cars in a scene with vegetation.: 5495
+There are poles in the scene.: 5658
+Trafficsigns in a scene with vegetation.: 2500
+Trunks in a scene with vegetation.: 5208
+There are trafficsigns in the scene.: 2500
+A road scene with cars.: 5471
+A road scene with trafficsigns.: 2500
+There are persons in the scene.: 1715
+The scene contains othervehicles and cars.: 2000
+Othervehicles in a scene with vegetation.: 1500
+Othervehicles.: 1771
+The scene contains persons and cars.: 4812
+Persons.: 1684
+A road scene with persons.: 1708
+Persons in a scene with vegetation.: 1744
+There are othervehicles in the scene.: 1500
+A road scene with othervehicles.: 1500
+Poles in a scene with vegetation.: 5648
+The scene contains bicyclists and cars.: 1099
+Bicyclists in a scene with vegetation.: 1105
+A road scene with bicyclists.: 1095
+Bicyclists and cars.: 1130
+There are bicyclists in the scene.: 1121
+Bicyclists.: 1139
+The scene contains bicycles and cars.: 5301
+Bicycles in a scene with vegetation.: 1327
+There are bicycles in the scene.: 1416
+A road scene with bicycles.: 1248
+Bicycles.: 1388
+The scene contains motorcycles and cars.: 1890
+A road scene with motorcycles.: 990
+Motorcycles and cars.: 1887
+Motorcycles.: 966
+Motorcycles in a scene with vegetation.: 996
+There are motorcycles in the scene.: 868

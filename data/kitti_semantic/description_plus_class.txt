@@ -1,0 +1,11 @@
+127140
+motorcyclist : 2507
+bicyclist : 3315
+motorcycle : 3748
+othervehicle : 8271
+bicycle : 7965
+person : 8235
+pole : 11936
+traffic_sign : 11966
+trunk : 11219
+car : 29767
