@@ -11,7 +11,7 @@ class TrainingConfig:
 
     # ---- dataset setting ----
     dataset: Literal["kitti_semantic", "kitti_360", "nuScenes"] = "kitti_360"
-    data_root: str = "/ihoment/youjie10/qwt/dataset/KITTI360/data_3d_raw"
+    data_root: str = "/root/dataset/KITTI360/data_3d_raw"
     aug: tuple[int, int] = ("-", "-") # ("rotation", "flip")
     resolution: tuple[int, int] = (64, 1024)
     depth_range: tuple[int, int] = (1.45, 80.0)
