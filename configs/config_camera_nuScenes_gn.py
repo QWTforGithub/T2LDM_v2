@@ -139,7 +139,7 @@ class TrainingConfig:
     dynamo_backend: str = None # "inductor", "no", None
     filer_keys =  [".n_",".temb.",".g_",] # ["n_","temb","g_",] # None
     checkpoint_dir: str = None
-    pretrained_checkpoint_dir: str = "/root/models/IJCV/nuScenes/partial_uncondiitional/diffusion_0000400000.pth"
+    pretrained_checkpoint_dir: str = "/root/models/IJCV/nuScenes/partial_uncondiitional_nuScenes/diffusion_0000400000.pth"
     # ---- training setting ----
 
     # ---- diffusion setting ----
