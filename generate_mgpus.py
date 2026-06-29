@@ -304,9 +304,9 @@ if __name__ == "__main__":
     root_path = "/ihoment/youjie10/qwt/model/T2LDM-plus"
     task = "BEV_nuScenes_gn"
     log = "20260515T001134"
-    name = "diffusion_0000980000.pth"
+    name = "diffusion_0000400000.pth"
     ckpt = f"{root_path}/logs/diffusion/{task}/{log}/models/{name}"
-    ckpt = "/root/models/IJCV/nuScenes/box/diffusion_0000800000.pth"
+    ckpt = "/root/models/IJCV/nuScenes/box/diffusion_0000400000.pth"
 
     seed = 92  # 81, 309, 88, 127, 744,          830, 171,18, 256, 803, 201,
     batch_size = 64  # 32  # 64
