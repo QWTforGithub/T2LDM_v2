@@ -50,7 +50,7 @@ class KITTI360Dataset(Dataset):
         self.conditionalx0_lidar_path = []
         self.conditionalx0_lidar_description = []
         self.conditionalx0_lidar_semantic = []
-        self.conditionalx0_lidar_lidar = []
+        self.conditionalx0_lidar_info = []
 
         lists = [
             8145, 9136, 10245, 11234, 13478,
@@ -63,7 +63,7 @@ class KITTI360Dataset(Dataset):
             self.conditionalx0_lidar_path.append(self.lidar_path[l])
             self.conditionalx0_lidar_description.append(self.lidar_description[l])
             self.conditionalx0_lidar_semantic.append(self.lidar_semantic[l])
-            self.conditionalx0_lidar_semantic.append(self.lidar_info[l])
+            self.conditionalx0_lidar_info.append(self.lidar_info[l])
 
 
         return
