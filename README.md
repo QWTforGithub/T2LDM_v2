@@ -1,7 +1,8 @@
-# T2LDM++
-The extension version of T2LDM. <br/>
-[HuggingFace](https://huggingface.co/QWTforHuggingFace/T2LDMv2) <br/>
-T2LDM++ will include these tasks:
+# T2LDM++ (The extension version of T2LDM)
+This repo is the official project repository of the paper **_T2LDM++: A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation_**. 
+ -  [ [arXiv](https://arxiv.org/abs/2606.30147) ]<br/>
+ -  Please download something from [HuggingFace](https://huggingface.co/QWTforHuggingFace/T2LDMv2). <br/>
+## T2LDM++ will include these tasks:
 - Unconditional Generation (KITTI-360, SemanticKITTI, nuScenes)
 - Unconditional Partial Generation (nuScenes)
 - Text-to-LiDAR Generation (SemanticKITTI, nuScenes)
@@ -10,5 +11,40 @@ T2LDM++ will include these tasks:
 - 3D Box-to-LiDAR Generation (nuScenes)
 - Sparse-to-Dense Generation (nuScenes)
 - Dense-to-Sparse Generation (nuScenes)
-- BEV-to-LiDAR Generation (KITTI-360, nuScenes) (BEV is the binary image, only including 0 and 1)
-- Camera-to-(Partial Scene)LiDAR (nuScenes)
+- BEV-to-LiDAR Generation (nuScenes) (BEV is the binary image, only including 0 and 1)
+- Camera-to-(Partial Scene) LiDAR (nuScenes)
+
+## Overview
+- [Installation](#installation)
+- [Data Preparation](#data-preparation)
+- [Model Zoo](#model-zoo)
+- [Quick Start](#quick-start)
+
+### Environment
+
+#### Using environments.yaml (based on conda command)
+```
+  cd envs
+  conda env create -f environment.yaml
+
+  # If you want to conduct sparse-to-dense/dense-to-sparse experiments.
+  cd ../pointops
+  python setup.py install
+```
+
+#### Using requirements.txt (based on pip command)
+```
+  conda create -n t2ldm python=3.10 -y
+  conda activate t2ldm
+
+  cd envs
+
+  pip install -r requirements.txt
+
+  pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
+  pip install ema-pytorch==0.4.8 kornia==0.7.0 accelerate==0.22.0
+
+  # If you want to conduct sparse-to-dense/dense-to-sparse experiments.
+  cd ../pointops
+  python setup.py install
+```
