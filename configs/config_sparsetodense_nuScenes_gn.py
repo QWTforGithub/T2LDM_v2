@@ -24,7 +24,7 @@ from torch.optim.lr_scheduler import LambdaLR
             base_down_rate: float = 0.25 # The is the condition. This will get the condition from LIDAR_TOP_DOWNSAMPLING{base_up_rate}.
             interpolate_rate: float = -1 # if you want to use the interpolate guidance, please set the interpolate rate.
         
-        And, you also can conduct the upsampling baseed on the original resolution (32, 1024):
+        And, you also can conduct the upsampling based on the original resolution (32, 1024):
             resolution: tuple[int, int] = (32, 2048)
             upsampling: bool = True 
             up_rate: float = 2 # This will implement the upsampling 2x than the original resolution.
