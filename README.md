@@ -1,7 +1,7 @@
 # T2LDM++ (The extension version of T2LDM)
 This repo is the official project repository of the paper **_T2LDM++: A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation_**. 
  -  Compared with T2LDM, **_the deeper theoretical insights_**, **_the more efficient framework design_**, and **_the more comprehensive experimental extensions_** are provided, please refer to [ [T2LDM++ paper](https://arxiv.org/pdf/2606.30147) ].
- -  Please download something from [HuggingFace](https://huggingface.co/QWTforHuggingFace/T2LDMv2). <br/>
+ -  Please download something from [HuggingFace](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main). <br/>
 ## Tasks (Please check **_the examples folder_** or **_the generate_mgpus.py file_**.):
 - Unconditional Generation (KITTI-360, SemanticKITTI, nuScenes)
 - Unconditional Partial Generation (nuScenes)
