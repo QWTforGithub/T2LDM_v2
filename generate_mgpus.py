@@ -302,12 +302,6 @@ if __name__ == "__main__":
             ]
     '''
 
-    root_path = "/ihoment/youjie10/qwt/model/T2LDM-plus"
-    task = "BEV_nuScenes_gn"
-    log = "20260515T001134"
-    name = "diffusion_0000400000.pth"
-    ckpt = f"{root_path}/logs/diffusion/{task}/{log}/models/{name}"
-
     # ckpt = "/root/models/checkpoints/nuScenes_semantic_0000400000.pth"
     # ckpt = "/root/models/checkpoints/SemanticKITTI_semantic_0000400000.pth"
 
