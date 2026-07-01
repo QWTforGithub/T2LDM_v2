@@ -245,7 +245,7 @@ class LiDARUtility(nn.Module):
             os.makedirs(semantic_dir, exist_ok=True)
 
             semantic = self.points_4dim_to_3dim(semantic).astype(int)
-            semantic = np.squeeze(semantic)
+            semantic = np.squeeze(semantic,axis=-1)
             semantic_data = f"{semantic_dir}/semantic_data"
             os.makedirs(semantic_data, exist_ok=True)
             self.save_semantic(semantic=semantic, name=f"{semantic_data}/semantic_process_{process}_rank_{rank}_dataset_{dataset}_step_{num_step}_sample_{num_sample}.npy")
