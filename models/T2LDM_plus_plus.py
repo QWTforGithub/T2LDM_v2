@@ -1469,68 +1469,6 @@ def get_encoder_deocder_dn():
 
     return encoder, deocder
 
-
-def get_draw_encoder_deocder_dn():
-
-    encoder = [
-        [
-            ["CircularConv2D"],                   # 0     2   -> 64
-            ["ResCircluarBlock", "LAB"],          # 1     64  -> 64
-            ["ResCircluarBlock", "LAB"],          # 2     64  -> 64
-            ["Downsample"]                        # 3     64  -> 64
-        ],
-        [
-            ["ResCircluarBlock", "LAB"],          # 4     64  -> 128
-            ["ResCircluarBlock", "LAB"],          # 5     128 -> 128
-            ["Downsample"]                        # 6     128 -> 128
-        ],
-        [
-            ["ResCircluarBlock", "LAB"],          # 7     128 -> 256
-            ["ResCircluarBlock", "LAB"],          # 8     256 -> 256
-            ["Downsample"]                        # 9     256 -> 256
-        ],
-        [
-            ["ResCircluarBlock"],                 # 10    256 -> 256
-            ["ResCircluarBlock"]                  # 11    256 -> 256
-        ]
-    ]
-
-    deocder = [
-        [
-            ["ResBlock"],                         # 0     256 + 256 -> 256
-            ["ResBlock"],                         # 1     256 + 256 -> 256
-            ["ResBlock", "Upsample"]              # 2     256 + 256 -> 256
-        ],
-        [
-            ["ResBlock", "LAB"],                  # 3     256 + 256 -> 256
-            ["ResBlock", "LAB"],                  # 4     256 + 256 -> 256
-            ["ResBlock", "LAB", "Upsample"]       # 5     128 + 256 -> 256
-        ],
-        [
-            ["ResBlock", "LAB"],                  # 6     128 + 256 -> 128
-            ["ResBlock", "LAB"],                  # 7     128 + 128 -> 128
-            ["ResBlock", "LAB", "Upsample"]       # 8     64  + 128 -> 128
-        ],
-        [
-            ["ResBlock", "LAB"],                  # 9     64  + 128 -> 64
-            ["ResBlock", "LAB"],                  # 10    64  + 64  -> 64
-            ["ResBlock", "LAB"]                   # 11    64  + 64  -> 64
-        ]
-    ]
-
-
-
-
-
-
-
-    middle = [ [          ["ResCircluarBlock"],               ["TAB"],               ["ResCircluarBlock"],          ] ]
-                        # 0 256 -> 512                     # 1 512 -> 512             # 2 512 -> 256
-
-
-    return encoder, deocder, middle
-
-
 class CircularUNet(nn.Module):
     # ---- DDPM UNet ----
     def __init__(
