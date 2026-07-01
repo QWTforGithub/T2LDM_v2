@@ -1332,7 +1332,7 @@ class Upsample(nn.Module):
 #     return encoder, deocder
 
 '''
-    Only using to draw the 9th figure in paper.
+    Only using to draw the 6th figure in paper.
 '''
 # def get_encoder_deocder_dn_draw():
 #
