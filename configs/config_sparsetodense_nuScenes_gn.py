@@ -6,7 +6,7 @@ import torch
 from torch.optim.lr_scheduler import LambdaLR
 
 '''
-        if you want to conduct S2D or S2D, please set the resolution.
+        if you want to conduct S2D or D2S, please set the resolution.
         For example, if you want to conduct the downsampling 4x:
             resolution: tuple[int, int] = (32, 256)
             upsampling: bool = False 
