@@ -22,14 +22,14 @@ import matplotlib.cm as cm
 import pickle
 import argparse
 from einops import rearrange, repeat
-# from pointops.functions import pointops
+from pointops.functions import pointops
 import matplotlib.pyplot as plt
 import subprocess
 
 def lidar_to_bev(
     points: np.ndarray,
-    H: int = 64,
-    W: int = 1024,
+    H: int = 256,
+    W: int = 256,
     min_depth: float = 1.45,
     max_depth: float = 80.0,
 ):
@@ -310,15 +310,17 @@ def preprocess(
     inputs["texts"] = texts
 
     semantic = None
-    semantic_org = None
-    if (use_seg and "semantic" in batch.keys() and "semantic_org" in batch.keys()):
+    if (use_seg and "semantic" in batch.keys()):
         semantic = batch["semantic"]
         if (not semantic.is_cuda):
             semantic = semantic.cuda()
+    inputs["semantic"] = semantic
+
+    semantic_org = None
+    if ("semantic_org" in batch.keys()):
         semantic_org = batch["semantic_org"]
         if (not semantic_org.is_cuda):
             semantic_org = semantic_org.cuda()
-    inputs["semantic"] = semantic
     inputs["semantic_org"] = semantic_org
 
     points = None
