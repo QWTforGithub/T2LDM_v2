@@ -12,7 +12,13 @@ This repo is the official project repository of the paper **_T2LDM++: A Self-Con
 - Sparse-to-Dense Generation (nuScenes)
 - Dense-to-Sparse Generation (nuScenes)
 - BEV-to-LiDAR Generation (nuScenes) (BEV is the binary image, only including 0 and 1)
-- Camera-to-(Partial Scene) LiDAR (nuScenes) <br/> 
+- Camera-to-(Partial Scene) LiDAR (nuScenes) <br/><br/>
+  We provide many demos in **_the examples folder_** (the conditional files is in **_the examples/example_files folder_**):
+  ```
+    cd examples
+    cd {task}_{dataset}
+    python single_generate_{task}_{dataset}.py
+  ```
 
 ## Overview
 - [Installation](#installation)
