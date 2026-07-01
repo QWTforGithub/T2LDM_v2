@@ -1,5 +1,5 @@
 # TBK
-1. Please download the organized FSHNet (the TBK folder) from [HuggingFace](https://huggingface.co/QWTforHuggingFace/T2LDM/tree/main). <br/>
+1. Please download the organized FSHNet (the TBK folder) from [HuggingFace](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/TBK). <br/>
 2. zip TBK.zip
 3. Install the runing environment
 ```
