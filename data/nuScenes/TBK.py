@@ -199,7 +199,11 @@ def TBK(texts, boxes, names, TARGET_CLASS='car'):
     print(f"Total num : {total_num}, Right num : {right_num}, TBK : {right_rate}")
 
 if __name__ == '__main__':
-
+    '''
+        text_root_path : a text list
+            ["xxx1", "xxx2", ...]
+        boxes_pkl_path : a pkl file producted from a detector (FSHNet).
+    '''
     text_root_path = "/ihoment/youjie10/qwt/res/text"
     boxes_pkl_path = "/ihoment/youjie10/qwt/model/FSHNet-TBK/tools/results.pkl"
     infos = read_pkl(boxes_pkl_path)
