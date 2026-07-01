@@ -213,7 +213,7 @@ def main(args, cfg):
         mode=args.sampling_mode,
     )
     all_time = time.time() - start_time
-    avg_time = all_time / 4 / args.batch_size
+    avg_time = all_time / accelerator.num_processes / args.batch_size
     print(f"all time : {all_time}, avg time : {avg_time}")
 
     if(cfg.upsampling or cfg.downsampling):
