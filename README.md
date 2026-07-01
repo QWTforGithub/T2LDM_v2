@@ -2,7 +2,7 @@
 This repo is the official project repository of the paper **_T2LDM++: A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation_**. 
  -  Compared with T2LDM, **_the deeper theoretical insights_**, **_the more efficient framework design_**, and **_the more comprehensive experimental extensions_** are provided, please refer to [ [T2LDM++ paper](https://arxiv.org/pdf/2606.30147) ].
  -  Please download something from [HuggingFace](https://huggingface.co/QWTforHuggingFace/T2LDMv2). <br/>
-## Tasks:
+## Tasks (Please check **_the examples folder_** or **_the generate_mgpus.py file_**.):
 - Unconditional Generation (KITTI-360, SemanticKITTI, nuScenes)
 - Unconditional Partial Generation (nuScenes)
 - Text-to-LiDAR Generation (SemanticKITTI, nuScenes)
@@ -12,8 +12,7 @@ This repo is the official project repository of the paper **_T2LDM++: A Self-Con
 - Sparse-to-Dense Generation (nuScenes)
 - Dense-to-Sparse Generation (nuScenes)
 - BEV-to-LiDAR Generation (nuScenes) (BEV is the binary image, only including 0 and 1)
-- Camera-to-(Partial Scene) LiDAR (nuScenes)
-- Please check **_the examples folder_** or **_the generate_mgpus.py file_**.
+- Camera-to-(Partial Scene) LiDAR (nuScenes) <br/> 
 
 ## Overview
 - [Installation](#installation)
