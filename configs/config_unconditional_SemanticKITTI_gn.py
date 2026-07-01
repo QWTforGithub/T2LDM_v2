@@ -88,6 +88,7 @@ class TrainingConfig:
     use_guidence_net: bool = True
     use_multistage_feats: bool = False
     use_control_net: bool = False
+    use_image_encoder: bool = False
     freeze_guidence_net: bool = False
     attention_gate: str = False # "head" "element" False
 
