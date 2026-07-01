@@ -162,13 +162,13 @@ class LiDARUtility(nn.Module):
             xyz=None,               # 与conditional net对应的range image [B,1,H,W]
             box=None,               # 3D Box，很遗憾不能直接点云上体现盒子，只能保存然后再展示
             camera=None,            # image，对应图像，这里是路径
-            camera_info=None,       # camera 参数对应image
+            camera_info=None,
             bev=None,               # BEV，(H,W)
 
             num_step=0,             # 训练迭代次数
-            num_sample=0,           # 采样次数
-            rank=0,                 # batch size rank
-            process=0,              # GPU rank
+            num_sample=0,            # 采样次数
+            rank=0,                 # rank
+            process=0,
             dataset="nuscenes",     # 数据集
     ):
 
@@ -180,6 +180,10 @@ class LiDARUtility(nn.Module):
 
             generation = self.denormalize(generation) # 将取值从 [-1,1]规划嗷[0,1]
             generation = self.revert_depth(generation)  # 将image_format形式 range image转为正常形式
+
+            if(camera_info is not None):
+                if(len(camera_info) < len(generation)):
+                    camera_info = camera_info * len(generation)
 
             for i in range(generation.shape[0]):
                 # generation_ = self.to_xyz(generation[[i]]) # range image转换为点云
