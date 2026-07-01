@@ -13,6 +13,7 @@ This repo is the official project repository of the paper **_T2LDM++: A Self-Con
 - Dense-to-Sparse Generation (nuScenes)
 - BEV-to-LiDAR Generation (nuScenes) (BEV is the binary image, only including 0 and 1)
 - Camera-to-(Partial Scene) LiDAR (nuScenes)
+- Please check **_the examples folder_** or **_the generate_mgpus.py file_**.
 
 ## Overview
 - [Installation](#installation)
