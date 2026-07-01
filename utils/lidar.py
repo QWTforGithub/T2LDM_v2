@@ -162,7 +162,7 @@ class LiDARUtility(nn.Module):
             xyz=None,               # 与conditional net对应的range image [B,1,H,W]
             box=None,               # 3D Box，很遗憾不能直接点云上体现盒子，只能保存然后再展示
             camera=None,            # image，对应图像，这里是路径
-            camera_info=None,
+            camera_info=None,       # camera 参数对应image
             bev=None,               # BEV，(H,W)
 
             num_step=0,             # 训练迭代次数
