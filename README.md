@@ -20,6 +20,17 @@ This repo is the official project repository of the paper **_T2LDM++: A Self-Con
 - [Model Zoo](#model-zoo)
 - [Quick Start](#quick-start)
 
+## Installation
+
+### Requirements
+The following environment is recommended for running **_T2LDM++_** (4 NVIDIA 3090 GPUs or 8 NVIDIA 4090 GPUs):<br/>
+**_If you only want to generate some LiDAR results (64 Steps or 1024 Steps, the GPU memory < 1G on BS=1), the Single 3090(24G)/3060(12G) GPU is enough!_**
+- Ubuntu: 18.04 and above
+- gcc/g++: 11.4 and above
+- CUDA: 12.1
+- PyTorch: 2.1.0
+- python: 3.10
+
 ### Environment
 
 #### Using environments.yaml (based on conda command)
