@@ -166,9 +166,9 @@ class LiDARUtility(nn.Module):
             bev=None,               # BEV，(H,W)
 
             num_step=0,             # 训练迭代次数
-            num_sample=0,            # 采样次数
-            rank=0,                 # rank
-            process=0,
+            num_sample=0,           # 采样次数
+            rank=0,                 # batch size rank
+            process=0,              # GPU rank
             dataset="nuscenes",     # 数据集
     ):
 
