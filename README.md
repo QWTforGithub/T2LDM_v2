@@ -65,3 +65,93 @@ The following environment is recommended for running **_T2LDM++_** (4 NVIDIA 309
   cd ../pointops
   python setup.py install
 ```
+
+## Data Preparation
+
+### nuScenes
+  1. Download the official [nuScenes](https://www.nuscenes.org/nuscenes#download) (or [Baidu Disk](https://pan.baidu.com/s/1Rsbi-Q_2EUm05lwQgn8T3Q?pwd=1111)(code:1111)) dataset (with Lidar Segmentation).
+  2. Put [ [nuscenes.pkl, nuscenes_camera.pkl, nuscenes_description_plus_plus.pkl](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/nuScenes) ] into the **_../nuScenes/v1.0-trainval_** folder.
+  3. Put  [ [SEMANTIC.ZIP](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/nuScenes) ] into  the **_../nuScenes/v1.0-trainval/samples_** folder (unzip the SEMANTIC.ZIP file).
+  4. The final **_../nuScenes/v1.0-trainval_** folder as follows:
+  ```
+  ../nuscenes/v1.0-trainval
+  │── samples
+  │── sweeps
+  │── lidarseg
+  ...
+  │── v1.0-trainval 
+  │── v1.0-test
+  │── nuscenes.pkll
+  │── nuscenes_camera.pkl
+  │── nuscenes_description_plus_plus.pkl
+  ```
+  5. If you want to conduct the Sparse-to-Dense and Dense-to-Sparse generation, please produce the samples using the downsampling_LIDAR function in [ [descriptor.py](https://github.com/QWTforGithub/T2LDM_v2/blob/main/data/nuScenes/descriptor.py) ]:
+  ```
+  Please produce 0.125/0.25/0.5/1.0/2.0 samples. For example, you want to generate 0.125 samples:
+  downsampling_LIDAR(
+        root_path = "nuScenes/v1.0-trainval/samples/LIDAR_TOP",
+        dest_path = "nuScenes/v1.0-trainval/samples/LIDAR_TOP_DOWNSAMPLING",
+        up_rate=0.125
+  )
+  # the final nuScenes/v1.0-trainval/samples folder as follows:
+  │── CAM_BACK
+  │── CAM_BACK_LEFT
+  │── CAM_BACK_RIGHT
+  ...
+  │── LIDAR_TOP_DOWNSAMPLING0.125
+  │── LIDAR_TOP_DOWNSAMPLING0.25
+  │── LIDAR_TOP_DOWNSAMPLING0.5
+  │── LIDAR_TOP_DOWNSAMPLING1.0
+  │── LIDAR_TOP_DOWNSAMPLING2.0
+  │── SEMANTIC
+  ```
+
+### SemanticKITTI
+  1. Dowload the official [SemanticKITTI (https://semantic-kitti.org/dataset.html).
+  2. Put [ [kitti_semantic.pkl, semantic_kitti_description.pkl](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/SemanticKITTI) ]
+  3. The final **_../SemanticKITTI/sequences_** folder as follows:
+```
+  /root/dataset/SemanticKITTI/dataset/sequences
+  │── 00
+  │── 01
+  │── 02
+  ...
+  │── 20
+  │── 21
+  │── kitti_semantic.pkl
+  │── semantic_kitti_description.pkl
+```
+
+### KITTI360
+  Dowload the official [KITTI360 (Raw Velodyne Scans (119G))](https://www.cvlibs.net/datasets/kitti-360/download.php) and organize the download files as follows:
+```
+  ../KITTI360/data_3d_raw
+  │── 2013_05_28_drive_0000_sync
+  │── 2013_05_28_drive_0002_sync
+  │── 2013_05_28_drive_0003_sync
+  ...
+  │── 2013_05_28_drive_0009_sync
+  │── 2013_05_28_drive_0010_sync
+```
+
+## Model Zoo
+We create a Huggingface project [QWTforHuggingFace/T2LDMv2](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main). Please download [checkpoints](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/checkpoints) from Huggingface.<br/>
+
+## Quick Start
+
+### Accelerate Configuration
+Before the training and sampling, it must deploys the accelerate.
+```
+  conda activate t2ldm
+  accelerate config
+  # please finsh the accelerate configuration according to the tips.
+```
+
+### domes
+Please check **_the [examples](https://github.com/QWTforGithub/T2LDM_v2/tree/main/examples) folder_**.
+
+### Training
+Please check **_the train_{task}_{dataset}_gn.py file_**.
+
+### Sampling
+Please check **_the [generate_mgpus.py](https://github.com/QWTforGithub/T2LDM_v2/blob/main/generate_mgpus.py) file_**.
