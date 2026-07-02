@@ -1,4 +1,4 @@
-I am very busy such as I do not have time to finish this section. <br/>
+I am very busy such that I do not have time to finish this section. <br/>
 If I have enough time in the future, I will make up it.<br/>
 Actually, it is very easy to implement this.<br/>
 1. You first encode all texts in T2SemanticKITTI by T5.
