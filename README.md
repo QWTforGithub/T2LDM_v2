@@ -108,10 +108,10 @@ The following environment is recommended for running **_T2LDM++_** (4 NVIDIA 309
 
 ### SemanticKITTI
   1. Dowload the official [SemanticKITTI (https://semantic-kitti.org/dataset.html).
-  2. Put [ [kitti_semantic.pkl, semantic_kitti_description.pkl](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/SemanticKITTI) ]
+  2. Put [ [kitti_semantic.pkl, semantic_kitti_description.pkl](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/SemanticKITTI) ] into **_the ../SemanticKITTI/dataset/sequences folder_**.
   3. The final **_../SemanticKITTI/sequences_** folder as follows:
 ```
-  /root/dataset/SemanticKITTI/dataset/sequences
+  ../SemanticKITTI/dataset/sequences
   │── 00
   │── 01
   │── 02
