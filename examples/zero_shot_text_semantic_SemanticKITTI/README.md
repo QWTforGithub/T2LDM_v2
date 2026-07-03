@@ -1,5 +1,5 @@
 I am very busy such that I do not have time to finish this section. <br/>
-If I have enough time in the future, I will make up it.<br/>
+If I have enough time in the future, I will make it up.<br/>
 Actually, it is very easy to implement this.<br/>
 1. You first encode all texts in T2SemanticKITTI by T5.
 2. Then, you encode the input text by T5.
