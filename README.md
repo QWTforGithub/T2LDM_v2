@@ -2,7 +2,7 @@
 This repo is the official project repository of the paper **_T2LDM++: A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation_**. 
  -  Compared with T2LDM, **_the deeper theoretical insights_**, **_the more efficient framework design_**, and **_the more comprehensive experimental extensions_** are provided, please refer to [ [T2LDM++ paper](https://arxiv.org/pdf/2606.30147) ].
  -  Please download something from [HuggingFace](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main). <br/>
-## Tasks (Please check **_the [examples](https://github.com/QWTforGithub/T2LDM_v2/tree/main/examples) folder_** or **_the [generate_mgpus.py](https://github.com/QWTforGithub/T2LDM_v2/blob/main/generate_mgpus.py) file_**.):
+## Tasks (Please check **_the [examples](https://github.com/QWTforGithub/T2LDM_v2/tree/main/demos) folder_** or **_the [generate_mgpus.py](https://github.com/QWTforGithub/T2LDM_v2/blob/main/generate_mgpus.py) file_**.):
 - Unconditional Generation (KITTI-360, SemanticKITTI, nuScenes)
 - Unconditional Partial Generation (nuScenes)
 - Text-to-LiDAR Generation (SemanticKITTI, nuScenes)
@@ -13,7 +13,7 @@ This repo is the official project repository of the paper **_T2LDM++: A Self-Con
 - Dense-to-Sparse Generation (nuScenes)
 - BEV-to-LiDAR Generation (nuScenes) (BEV is the binary image, only including 0 and 1)
 - Camera-to-(Partial Scene) LiDAR (nuScenes) <br/><br/>
-  We provide many demos in **_the [examples](https://github.com/QWTforGithub/T2LDM_v2/tree/main/examples) folder_** (the conditional files is in **_the [examples/example_files](https://github.com/QWTforGithub/T2LDM_v2/tree/main/examples/example_files) folder_**):
+  We provide many demos in **_the [examples](https://github.com/QWTforGithub/T2LDM_v2/tree/main/demos) folder_** (the conditional files is in **_the [examples/example_files](https://github.com/QWTforGithub/T2LDM_v2/tree/main/examples/example_files) folder_**):
   ```
     cd examples
     cd {task}_{dataset}
@@ -148,7 +148,7 @@ Before the training and sampling, it must deploys the accelerate.
 ```
 
 ### Domes
-Please check **_the [examples](https://github.com/QWTforGithub/T2LDM_v2/tree/main/examples) folder_**.
+Please check **_the [examples](https://github.com/QWTforGithub/T2LDM_v2/tree/main/demos) folder_**.
 
 ### Training
 Please check **_the train\_{task}\_{dataset}\_gn.py file_**.
