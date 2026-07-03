@@ -147,7 +147,7 @@ Before the training and sampling, it must deploys the accelerate.
   # please finsh the accelerate configuration according to the tips.
 ```
 
-### domes
+### Domes
 Please check **_the [examples](https://github.com/QWTforGithub/T2LDM_v2/tree/main/examples) folder_**.
 
 ### Training
