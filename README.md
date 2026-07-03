@@ -135,7 +135,7 @@ The following environment is recommended for running **_T2LDM++_** (4 NVIDIA 309
 ```
 
 ## Model Zoo
-We create a Huggingface project [QWTforHuggingFace/T2LDMv2](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main). Please download [checkpoints](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/checkpoints) from Huggingface.<br/>
+We build a Huggingface project [QWTforHuggingFace/T2LDMv2](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main). Please download [checkpoints](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/checkpoints) from Huggingface.<br/>
 
 ## Quick Start
 
