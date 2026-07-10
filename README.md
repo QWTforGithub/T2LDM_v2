@@ -70,7 +70,7 @@ The following environment is recommended for running **_T2LDM++_** (4 NVIDIA 309
 ## Data Preparation
 
 ### nuScenes
-  1. Download the official [nuScenes](https://www.nuscenes.org/nuscenes#download) (or [Baidu Disk](https://pan.baidu.com/s/1Rsbi-Q_2EUm05lwQgn8T3Q?pwd=1111)(code:1111)) dataset (with Lidar Segmentation).
+  1. Download the official [nuScenes](https://www.nuscenes.org/nuscenes#download) (or [Baidu Disk](https://pan.baidu.com/s/1Gwfw6gcVEVEd8682-_u6fA?pwd=1111 )(code:1111)) dataset (with Lidar Segmentation).
   2. Put [ [nuscenes.pkl, nuscenes_camera.pkl, nuscenes_description_plus_plus.pkl](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/nuScenes) ] into the **_../nuScenes/v1.0-trainval_** folder.
   3. Put  [ [SEMANTIC.ZIP](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/nuScenes) ] into  the **_../nuScenes/v1.0-trainval/samples_** folder (unzip the SEMANTIC.ZIP file).
   4. The final **_../nuScenes/v1.0-trainval_** folder as follows:
