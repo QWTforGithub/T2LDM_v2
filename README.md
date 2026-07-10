@@ -2,6 +2,7 @@
 This repo is the official project repository of the paper **_T2LDM++: A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation_**. 
  -  Compared with T2LDM, **_the deeper theoretical insights_**, **_the more efficient framework design_**, and **_the more comprehensive experimental extensions_** are provided, please refer to [ [T2LDM++ paper](https://arxiv.org/pdf/2606.30147) ].
  -  Please download something from [HuggingFace](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main). <br/>
+ -  Please download results in the paper from [Baidu Disk (code: 1111)](https://pan.baidu.com/s/1dtQmJlclyLKCSrCmnzKbrQ?pwd=1111). <br/>
 ## Tasks (Please check **_the [demos](https://github.com/QWTforGithub/T2LDM_v2/tree/main/demos) folder_** or **_the [generate_mgpus.py](https://github.com/QWTforGithub/T2LDM_v2/blob/main/generate_mgpus.py) file_**.):
 - Unconditional Generation (KITTI-360, SemanticKITTI, nuScenes)
 - Unconditional Partial Generation (nuScenes)
@@ -107,7 +108,7 @@ The following environment is recommended for running **_T2LDM++_** (4 NVIDIA 309
   ```
 
 ### SemanticKITTI
-  1. Dowload the official [SemanticKITTI (https://semantic-kitti.org/dataset.html).
+  1. Dowload the official [SemanticKITTI (https://semantic-kitti.org/dataset.html) (or [Baidu Disk (code:1111)](https://pan.baidu.com/s/1Khe8N2p-JdN8y6Gz2DvaMQ?pwd=1111)).
   2. Put [ [kitti_semantic.pkl, semantic_kitti_description.pkl](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/SemanticKITTI) ] into **_the ../SemanticKITTI/dataset/sequences folder_**.
   3. The final **_../SemanticKITTI/sequences_** folder as follows:
 ```
@@ -123,7 +124,7 @@ The following environment is recommended for running **_T2LDM++_** (4 NVIDIA 309
 ```
 
 ### KITTI360
-  Dowload the official [KITTI360 (Raw Velodyne Scans (119G))](https://www.cvlibs.net/datasets/kitti-360/download.php) and organize the download files as follows:
+  Dowload the official [KITTI360 (Raw Velodyne Scans (119G))](https://www.cvlibs.net/datasets/kitti-360/download.php) (or [Baidu Disk (code:1111)](https://pan.baidu.com/s/1l0pFP4nmNoVpBEZvtBbp8A?pwd=1111)) and organize the download files as follows:
 ```
   ../KITTI360/data_3d_raw
   │── 2013_05_28_drive_0000_sync
@@ -154,4 +155,5 @@ Please check **_the [demos](https://github.com/QWTforGithub/T2LDM_v2/tree/main/d
 Please check **_the train\_{task}\_{dataset}\_gn.py file_**.
 
 ### Sampling
-Please check **_the [generate_mgpus.py](https://github.com/QWTforGithub/T2LDM_v2/blob/main/generate_mgpus.py) file_**.
+Please check **_the [generate_mgpus.py](https://github.com/QWTforGithub/T2LDM_v2/blob/main/generate_mgpus.py) file_**. <br/>
+All results in the paper are put in [Baidu Disk (code: 1111)](https://pan.baidu.com/s/1dtQmJlclyLKCSrCmnzKbrQ?pwd=1111).
