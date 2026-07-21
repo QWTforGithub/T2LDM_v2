@@ -4,6 +4,9 @@ This repo is the official project repository of the paper **_T2LDM++: A Self-Con
  -  Please download something from [HuggingFace](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main). <br/>
  -  Please download results in the paper from [Baidu Disk (code: 1111)](https://pan.baidu.com/s/1dtQmJlclyLKCSrCmnzKbrQ?pwd=1111). <br/>
 ## Tasks (Please check **_the [demos](https://github.com/QWTforGithub/T2LDM_v2/tree/main/demos) folder_** or **_the [generate_mgpus.py](https://github.com/QWTforGithub/T2LDM_v2/blob/main/generate_mgpus.py) file_**.):
+
+**_We plan to achieve [4D Generation]. That means T2LDM++ can generation multi-frame LiDAR scenes with continuous time._**
+
 - Unconditional Generation (KITTI-360, SemanticKITTI, nuScenes)
 - Unconditional Partial Generation (nuScenes)
 - Text-to-LiDAR Generation (SemanticKITTI, nuScenes)
