@@ -10,7 +10,7 @@ This repo is the official project repository of the paper **_T2LDM++: A Self-Con
 - Unconditional Generation ([KITTI-360](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/unconditional_KITTI360/generate_unconditional_KITTI360.py), [SemanticKITTI](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/unconditional_SemanticKITTI/generate_unconditional_SemanticKITTI.py), [nuScenes](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/unconditional_nuScenes/generate_unconditional_nuScenes.py))
 - Unconditional Partial Generation ([nuScenes](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/unconditional_partial_nuScenes/generate_partial_unconditional_nuScenes.py))
 - Text-to-LiDAR Generation (SemanticKITTI, nuScenes)
-- Zero-shot Text-to-LiDAR Generation from (semantic, Box)-to-LiDAR Generation (SemanticKITTI, nuScenes)
+- Zero-shot Text-to-LiDAR Generation from (semantic, Box)-to-LiDAR Generation ([SemanticKITTI](https://github.com/QWTforGithub/T2LDM_v2/tree/main/demos/zero_shot_text_semantic_SemanticKITTI), [nuScenes](https://github.com/QWTforGithub/T2LDM_v2/tree/main/demos/zero_shot_text_box_nuScenes))
 - Semantic-to-LiDAR Generation ([SemanticKITTI](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/semantic_SemanticKITTI/single_generate_semantic_SemanticKITTTI.py), [nuScenes](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/semantic_nuScenes/single_generate_semantic_nuScenes.py))
 - 3D Box-to-LiDAR Generation ([nuScenes](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/box_nuScenes/single_generate_box_nuScenes.py))
 - Sparse-to-Dense Generation ([nuScenes](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/sparse_to_dense/single_generate_sparsetodense_nuScenes.py))
