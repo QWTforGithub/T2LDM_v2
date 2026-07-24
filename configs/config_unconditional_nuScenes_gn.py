@@ -138,7 +138,7 @@ class TrainingConfig:
     mixed_precision: str = "no" # "fp16", "no"
     dynamo_backend: str = None # "inductor", "no", None
     filer_keys =  None# ["n_","temb","g_",] # None
-    checkpoint_dir: str = None#"/ihoment/youjie10/qwt/model/IJCV/unconditional_nuScenes/diffusion_0000610000.pth"
+    checkpoint_dir: str = None
     pretrained_checkpoint_dir: str = None
     # ---- training setting ----
 
