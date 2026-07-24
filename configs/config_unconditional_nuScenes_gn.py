@@ -157,7 +157,7 @@ class TrainingConfig:
     diffusion_clip_sample_range: float = 1.0
 
     diffusion_guidence_step_interval: int = 100_000
-    diffusion_guidence_weights = [0.001, 0.01, 0.01, 0.01] # [0.001, 0.01, 0.1, 1.0]
+    diffusion_guidence_weights = [0.001, 0.01, 0.01, 0.01] # [0.001, 0.01, 0.01, 0.01]
 
     diffusion_classifier_free_scale: float = None  # 4.0
     diffusion_classifier_dropout: float = 0.0 # 0.1
