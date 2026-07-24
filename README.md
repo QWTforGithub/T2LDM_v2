@@ -85,7 +85,7 @@ The following environment is recommended for running **_T2LDM++_** (4 NVIDIA 309
   ...
   │── v1.0-trainval 
   │── v1.0-test
-  │── nuscenes.pkll
+  │── nuscenes.pkl
   │── nuscenes_camera.pkl
   │── nuscenes_description_plus_plus.pkl
   ```
@@ -112,7 +112,7 @@ The following environment is recommended for running **_T2LDM++_** (4 NVIDIA 309
 
 ### SemanticKITTI
   1. Dowload the official [SemanticKITTI (https://semantic-kitti.org/dataset.html) (or [Baidu Disk (code:1111)](https://pan.baidu.com/s/1Khe8N2p-JdN8y6Gz2DvaMQ?pwd=1111)).
-  2. Put [ [kitti_semantic.pkl, semantic_kitti_description.pkl](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/SemanticKITTI) ] into **_the ../SemanticKITTI/dataset/sequences folder_**.
+  2. Put [ [semantic_kitti.pkl, semantic_kitti_description.pkl](https://huggingface.co/QWTforHuggingFace/T2LDMv2/tree/main/SemanticKITTI) ] into **_the ../SemanticKITTI/dataset/sequences folder_**.
   3. The final **_../SemanticKITTI/sequences_** folder as follows:
 ```
   ../SemanticKITTI/dataset/sequences
@@ -122,7 +122,7 @@ The following environment is recommended for running **_T2LDM++_** (4 NVIDIA 309
   ...
   │── 20
   │── 21
-  │── kitti_semantic.pkl
+  │── semantic_kitti.pkl
   │── semantic_kitti_description.pkl
 ```
 
