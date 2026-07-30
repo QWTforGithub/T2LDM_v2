@@ -173,6 +173,8 @@ class ContinuousTimeGaussianDiffusion(base.GaussianDiffusion):
             log_snr = self.log_snr(step_t)[:, None, None, None]
             alpha, sigma = self.log_snr_to_alpha_sigma(log_snr)
             target = alpha * noise - sigma * x_0
+        elif self.objective == "x0":
+            loss_weight = clipped_snr
         else:
             raise ValueError(f"invalid objective {self.objective}")
         return target
