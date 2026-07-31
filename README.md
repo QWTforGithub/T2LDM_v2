@@ -149,6 +149,14 @@ Before the training and sampling, it must deploys the accelerate.
   conda activate t2ldm
   accelerate config
   # please finsh the accelerate configuration according to the tips.
+
+  # Using multiple GPUs to train T2LDM++
+  cd T2LDM_v2-main
+  accelerate launch  train_{task}_{dataset}_gn.py 2>&1 | tee train.log
+
+  # Using multiple GPUs to generate results by T2LDM++
+  cd T2LDM_v2-main
+  accelerate launch --main_process_port 29501  generate_mgpus.py 2>&1 | tee test.log
 ```
 
 ### Domes
