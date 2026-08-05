@@ -12,7 +12,7 @@ This repo is the official project repository of the paper **_T2LDM++: A Self-Con
 - Text-to-LiDAR Generation (SemanticKITTI, nuScenes)
 - Zero-shot Text-to-LiDAR Generation from (semantic, Box)-to-LiDAR Generation ([SemanticKITTI](https://github.com/QWTforGithub/T2LDM_v2/tree/main/demos/zero_shot_text_semantic_SemanticKITTI), [nuScenes](https://github.com/QWTforGithub/T2LDM_v2/tree/main/demos/zero_shot_text_box_nuScenes))
 - Semantic-to-LiDAR Generation ([SemanticKITTI](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/semantic_SemanticKITTI/single_generate_semantic_SemanticKITTTI.py), [nuScenes](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/semantic_nuScenes/single_generate_semantic_nuScenes.py))
-- 3D Box-to-LiDAR Generation ([nuScenes](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/box_nuScenes/single_generate_box_nuScenes.py))
+- 3D Box-to-LiDAR Generation ([nuScenes](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/box_nuScenes/single_generate_box_nuScenes.py)) (Please use [show_3dbox.py](https://github.com/QWTforGithub/T2LDM_v2/blob/main/utils/show_3dbox.py) to visual the result)
 - Sparse-to-Dense Generation ([nuScenes](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/sparse_to_dense/single_generate_sparsetodense_nuScenes.py))
 - Dense-to-Sparse Generation ([nuScenes](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/dense_to_sparse/single_generate_densetosparse_nuScenes.py))
 - BEV-to-LiDAR Generation ([nuScenes](https://github.com/QWTforGithub/T2LDM_v2/blob/main/demos/bev_nuScenes/single_generate_bev_nuScenes.py)) (BEV is the binary image, only including 0 and 1)
